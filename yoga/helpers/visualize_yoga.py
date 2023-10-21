@@ -13,7 +13,7 @@ import os
 
 np.seterr(divide='ignore', invalid='ignore')
 
-model_path = os.getcwd() + '\\helpers\\model' # get path of saved Keras Model
+model_path = os.getcwd() + 'yoga/helpers/model' # get path of saved Keras Model
 model = load_model(model_path)                # load model
 
 def predict_pose(angles):
